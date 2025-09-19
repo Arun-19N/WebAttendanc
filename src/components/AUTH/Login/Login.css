@@ -1,0 +1,127 @@
+.login-form {
+    background-color: #fff;
+    display: block;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-container input, .form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    width: 100%;
+  }
+  
+  .input-container input {
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); */
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-container.error input {
+    border-color: red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    display: block;
+  }
+  
+  .input-icon {
+    display: grid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    place-content: center;
+  }
+  
+  .input-icon svg {
+    color: #9CA3AF;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .login_pass {
+    border: none !important;
+  }
+  
+  .pass-outer {
+    padding-right: 0 !important;
+  }
+  
+  .submit {
+    display: block;
+    padding: 0.75rem 1.25rem;
+    background-color: darkorange;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #ff8c00;
+  }
+  
+  .submit:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .signup-link {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .signup-link a {
+    text-decoration: underline;
+    color: darkorange;
+    margin-left: 0.5rem;
+  }
+  
+  .eye-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .login_input:focus, .pass-outer:focus-within {
+    border: 2px solid orange !important;
+    outline: none;
+  }
+
+  .form-control:focus{
+    box-shadow: none !important;
+  }

@@ -1,0 +1,31 @@
+.footer__part{
+    background-color: gainsboro;
+    height: auto;
+    /* padding-top: auto; */
+    padding-block: 30px;
+}
+
+.footer__icons i{
+    font-size: clamp(15px,8vw,20px);
+    margin-inline: 10px;
+    padding-block: 20px;
+}
+.footer__link__title{
+    text-align: left;
+}
+.footer__links__1,.footer__links__2{
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.contact__info__footer{
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.footer__content{
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+

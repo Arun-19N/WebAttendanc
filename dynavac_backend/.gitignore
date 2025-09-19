@@ -1,0 +1,9 @@
+.venv
+.idea
+.vscode
+.env
+__pycache__/
+alembic
+alembic.ini
+testmail.py
+test.py

@@ -1,0 +1,33 @@
+
+.navbar{
+    position:sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.nav__logo{
+    width: 150px;
+}
+.nav__logo__button{
+width: 100%;
+/* float: right; */
+/* background-color: aquamarine; */
+
+}
+.navbar-toggler{
+    margin-left: auto;
+}
+
+.nav-link:hover {
+    color: darkorange;
+   transition: 1s;
+}
+/* .nav-link:active {
+    color: darkorange;
+    border-bottom: 2px solid orange;
+} */
+.nav-link:focus {
+    color: darkorange;
+    border-bottom: 2px solid orange;
+}

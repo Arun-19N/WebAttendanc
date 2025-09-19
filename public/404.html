@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Page not found</title>
+  </head>
+  <body>
+    <script>
+      // Redirect all 404 requests back to the SPA index so client-side routing can take over
+      var path = window.location.pathname.replace(/\/WebAttendanc\/?/, '');
+      window.location.replace('/WebAttendanc/' + path + window.location.search + window.location.hash);
+    </script>
+  </body>
+</html>
